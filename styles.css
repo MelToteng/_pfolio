@@ -107,3 +107,12 @@ details p { margin-top: .55rem; }
   nav { margin-left: 3rem; }
   h1 { font-size: clamp(3rem, 13vw, 4rem); }
 }
+
+nav a[aria-current="page"] { color: var(--green); font-weight: 700; text-decoration: underline; text-underline-offset: .3em; }
+.blog-page { max-width: 52rem; }
+.blog-page h1 { font-size: clamp(4rem, 8.6vw, 7rem); line-height: 1; }
+.blog-page .blog-post { margin-top: 2.5rem; }
+.blog-page .blog-post h3 { line-height: 1.15; }
+.blog-title-link { text-decoration: none; }
+.blog-title-link:hover { text-decoration: underline; text-underline-offset: .12em; }
+.blog-back { margin-top: 2rem; }
